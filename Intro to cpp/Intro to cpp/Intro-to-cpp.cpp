@@ -85,13 +85,67 @@ void floatFun()
 }
 void Program()
 {
+	double i = 5.11;
+	double j = 95;
+	string name = "Shahroz Khan";
+
+	string address = "Ishaq Munzil Bazar Bhabrian";
+
+	string accuption = "Programmer";
+
+	cout << "Punjab Group of Colleges" << endl;
+
+	cout << "Name of the student is " << name << endl;
+	cout << "Student's address is " << address << endl;
+	cout << "Student's job is " << accuption << endl;
+
+}
+
+void VariablesAllTypes()
+{
+	double i = 5.11;
+	double j = 95;
+	string name = "Shahroz Khan";
+
+	string address = "Ishaq Munzil Bazar Bhabrian";
+
+
+	cout << "Punjab Group of Colleges" << endl;
+
+	cout << "Name of the student is " << name << endl;
+	cout << "Student's address is " << address << endl;
+	cout << "Student's height is " << i << endl;
+	cout << "Student's weight is " << j << endl;
+	
+}
+
+void Tables()
+{
+	int i = 0;
+	cout << "Enter a no to display it's table" << endl;
+	cin >> i;
+	cout << "Table of " << i << " is " << endl;
+	cout << i << "x 1 =" << i * 1 << endl;
+	cout << i << "x 2 =" << i * 2 << endl;
+	cout << i << "x 3 =" << i * 3 << endl;
+	cout << i << "x 4 =" << i * 4 << endl;
+	cout << i << "x 5 =" << i * 5 << endl;
+	cout << i << "x 6 =" << i * 6 << endl;
+	cout << i << "x 7 =" << i * 7 << endl;
+	cout << i << "x 8 =" << i * 8 << endl;
+	cout << i << "x 9 =" << i * 9 << endl;
+	cout << i << "x 10 =" << i * 10 << endl;
+
 
 }
 
 int main()
 {
-	integerFun();
+	//integerFun();
 	//doubleFun();
+	//Program();
+	//VariablesAllTypes();
+	Tables();
 }
 
 
