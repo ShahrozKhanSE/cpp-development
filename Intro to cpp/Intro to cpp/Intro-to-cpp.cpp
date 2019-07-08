@@ -138,6 +138,89 @@ void Tables()
 
 
 }
+void CelsiusToFarenheit()
+{
+
+	double C = 1.8;
+	double F = 32;
+
+	double cel = 0;
+	cout << "Enter Celcius to convert in F ";
+	cin >> cel;
+
+	double far = cel * C + F;
+
+	cout << cel << "C to " << far << "F " << endl;
+
+}
+
+void CelsiusToKelvin()
+{
+	double K = 273.15;
+	double cel = 0;
+
+	cout << "Enter Celsius to convert in Kelvin ";
+	cin >> cel;
+
+	double kel = cel + K;
+
+	cout << cel << "C to " << kel << "K" << endl;
+}
+
+void FarenheitToCelsius()
+{
+	double C = 0.5556;
+	double F = 32;
+
+	double far = 0;
+	cout << "Enter Farenheit to convert into Celsius ";
+	cin >> far;
+
+	double cel = far - F;
+	cel = cel * C;
+	cout << far << "F to " << cel << "C " << endl;
+
+}
+
+void FarenheitToKelvin()
+{
+	double K = 459.67;
+	double C = .5556;
+	double far = 0;
+	cout << "Enter Farenheit to convert in Kelvin ";
+	cin >> far;
+
+	double kel = far + K;
+	kel = kel * C;
+	cout << far << "F to " << kel << "K " << endl;
+
+}
+
+void KelvinToCelsius()
+{
+	double K = 273.15;
+	double kel = 0;
+
+	cout << "Enter Kelvin to conver in Celsius ";
+	cin >> kel;
+
+	double cel = kel - K;
+	cout << kel << "K to " << cel << "C " << endl;
+
+}
+
+
+void KelvinToFarenheit()
+{
+	double F = 1.8;
+	double K = 459.67;
+	double kel = 0;
+	cout << "Enter Kelvin to convert in Farenheit ";
+	cin >> kel;
+	double far = kel * F - K;
+
+	cout << kel << "K to " << far << "F " << endl;
+}
 
 int main()
 {
@@ -145,7 +228,13 @@ int main()
 	//doubleFun();
 	//Program();
 	//VariablesAllTypes();
-	Tables();
+	//Tables();
+	//CelsiusToFarenheit();
+	//CelsiusToKelvin();
+	//FarenheitToCelsius();
+	//FarenheitToKelvin();
+	//KelvinToCelsius();
+	KelvinToFarenheit();
 }
 
 
